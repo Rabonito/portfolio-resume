@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --clr-primary1: #f5f5f5;
+    --clr-primary2: #4C58A6;
+    --clr-dark: #2F4858;
+    --clr-light: #FFFFFF;
+    --fw-black: 900;
+    --fw-bold: 700;
+    --fw-normal: 400;
+    --poppins: 'Poppins', sans-serif;
+    --play: 'Play', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    line-height: 1.5;
+    font-family: var(--poppins);
+    font-weight: var(--fw-normal);
+}
+.background {
+    background-color: var(--clr-primary1);
+    margin: 5em 15em;
+}
+.content-padding{
+    padding: 2em 5em;
+}
+.container {
+    border-top: .8em solid #272727;
+    border-bottom: .5em solid #d4d4d4;
+}
+/* .header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    }
+    
+    .name { grid-area: 1 / 1 / 2 / 2; }
+    .btn { grid-area: 1 / 2 / 2 / 3; }
+    .domain{ grid-area: 2 / 2 / 3 / 3; }
+    .contact-num { grid-area: 3 / 2 / 4 / 3; }
+    .position { grid-area: 2 / 1 / 4 / 2; } */
+/* .header{
+    display: inline;
+} */
+.header{
+    position: relative;
+    padding-bottom: 10em;
+    border-bottom: 1px solid #ccc;
+}
+.hd{
+    float:left;
+    width: 50%;
+}
+.contacts{
+    float:right;
+    width: 20%;
+    margin-right: 10em;
+    margin-top: 1em;
+}
+.name{
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.position{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.btn{
+    background-color: rgb(59, 59, 59);
+    color:var(--clr-light);
+    padding: 10px 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.contact-num{
+    padding-top: .5em;
+}
+.domain{
+    padding-top: .5em;
+}
+.title{
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #ccc;
+}
+.content-title{
+    width: 15%;
+    font-style: italic;
+}
+.text-content{
+    width: 90%;
+    font-size: 1.5em;
+    display: flex;
+}
+.col{
+    width: 33.33%;
+}
+.skills-header{
+    font-weight: var(--fw-bold);
+}
+li{
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+.tech-skill{
+    width: 33.33%;
+}
+
+.job{
+    position: relative;
+    font-size: .7em;
+}
+.job h4 {
+    position: absolute;
+    top: 0.35em;
+    right: 0;
+    font-size: .9em;
+}
+.educ-content{
+    font-size: 1.5em;
+}
+.educ{
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 92%;
+}
